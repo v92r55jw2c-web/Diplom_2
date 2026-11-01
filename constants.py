@@ -1,0 +1,18 @@
+
+#Статусы
+
+EXPECTED_STATUS_CREATED = 200
+EXPECTED_STATUS_SUCCESS = 200
+FORBIDDEN_STATUS = 403
+EXPECTED_STATUS_UNAUTHORIZED = 401
+EXPECTED_STATUS_BAD_REQUEST = 400
+EXPECTED_STATUS_INVALID_INREDIENT = 500
+
+
+#Тексты сообщений
+
+MSG_LOGIN_DUPLICATE = "User already exists"
+MSG_REQUIRED_FIELDS = "Email, password and name are required fields"
+MSG_UNAUTHORIZED = "email or password are incorrect"
+MSG_WITHOUT_INREDIENT = "Ingredient ids must be provided"
+
